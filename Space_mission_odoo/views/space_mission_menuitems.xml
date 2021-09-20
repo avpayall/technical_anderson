@@ -28,6 +28,6 @@
         
         <menuitem id="menu_space_mission_spaceships" name="Spaceships" parent="menu_space_mission_sub" sequence="3" action="spaceship_list_action" />
         
-        <menuitem id="menu_space_mission_travels" name="Travels" parent="menu_space_mission_sub" sequence="4" action="spaceship_list_action" />
+        <menuitem id="menu_space_mission_travels" name="Travels" parent="menu_space_mission_sub" sequence="4" action="travel_list_action" />
     </data>
 </odoo>
