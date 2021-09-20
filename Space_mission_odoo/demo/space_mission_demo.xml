@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="space_mission_odoo.spaceship" id="unsc_1000">
+            <field name="name">UNSC Infinity</field>
+            <field name="description">UNSC most badass ship ever built</field>
+            <field name="level">intergalactic</field>
+        </record>
+
+        <record model="space_mission_odoo.spaceship" id="unsc_100">
+            <field name="name">UNSC Pillar of Autumn</field>
+            <field name="description">UNSC ship that destroyed the installation 04</field>
+            <field name="level">interstellar</field>
+        </record>
+
+        <record model="space_mission_odoo.spaceship" id="unsc_200">
+            <field name="name">UNSC Forward Unto Dawn</field>
+            <field name="description">UNSC famous battlecruiser</field>
+            <field name="level">interstellar</field>
+        </record>
+    </data>
+</odoo>
