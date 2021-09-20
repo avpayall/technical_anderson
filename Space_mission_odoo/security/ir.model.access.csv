@@ -1,0 +1,5 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+spaceship_captain,spaceship captain,model_space_mission_odoo_spaceship,group_space_mission_admin,1,1,1,1
+spaceship_crew,spaceship crew,model_space_mission_odoo_spaceship,,1,0,0,0
+travel_commander, travel commander,model_space_mission_odoo_travel,group_space_mission_admin,1,1,1,1
+travel_attendee, travel attendee,model_space_mission_odoo_travel,,1,0,0,0
