@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="space_mission_odoo_sale_wizard_form_view" >
+            <field name="name">space_mission_odoo.sale.wizard.form</field>
+            <field name="model">space_mission_odoo.sale.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Create Sale Order for Travel">
+                    <group>
+                        <field name="travel_id"/>
+                        <field name="travel_attendee_ids" invisible="1" />
+                        <field name="attendee_ids" domain="[('id', 'in', travel_attendee_ids)]" />
+                    </group>
+                    <footer>
+                        <button name="create_sale_orders" type="object" string="Create" class="oe_highlight" />
+                        or
+                        <button special="cancel" string="Cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <act_window id="launch_sale_wizard"
+                    name="Create Sale Order"
+                    binding_model="space_mission_odoo.travel"
+                    res_model="space_mission_odoo.sale.wizard"
+                    view_mode="form" target="new" />
+    </data>
+</odoo>

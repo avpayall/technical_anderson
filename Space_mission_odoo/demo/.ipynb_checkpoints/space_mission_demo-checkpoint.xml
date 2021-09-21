@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
+    <data noupdate="0">
         <record model="space_mission_odoo.spaceship" id="unsc_1000">
             <field name="name">UNSC Infinity</field>
             <field name="description">UNSC most badass ship ever built</field>
