@@ -54,5 +54,20 @@
                 </search>
             </field>
         </record>
+        
+        <record model="ir.ui.view" id="spaceship_view_pivot">
+            <field name="name">space_mission_odoo.spaceship.pivot</field>
+            <field name="model">space_mission_odoo.spaceship</field>
+            <field name="arch" type="xml">
+                <pivot>
+                    <field name="level" type="row" />
+                    <field name="name" type="row" />
+                    <field name="base_cost" type="measure" />
+                    <field name="fuel_cost" type="measure" />
+                    <field name="total_cost" type="measure" />
+                </pivot>
+            </field>
+        </record>
+        
     </data>
 </odoo>
