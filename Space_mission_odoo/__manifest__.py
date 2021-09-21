@@ -17,7 +17,7 @@
     
     'version': '0.01',
     
-    'depends': ['base'],
+    'depends': ['sale'],
     
     'data': [
         'security/space_mission_security.xml',
@@ -25,6 +25,7 @@
         'views/space_mission_menuitems.xml',
         'views/spaceship_views.xml',
         'views/travel_views.xml',
+        'views/sale_views_inherit.xml',
     ],
     
     'demo': [

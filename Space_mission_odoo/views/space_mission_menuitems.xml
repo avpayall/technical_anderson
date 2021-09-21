@@ -4,7 +4,7 @@
         <record model="ir.actions.act_window" id="spaceship_list_action">
             <field name="name">Spaceships</field>
             <field name="res_model">space_mission_odoo.spaceship</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,pivot</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     Create a new Spaceship
@@ -15,7 +15,7 @@
         <record model="ir.actions.act_window" id="travel_list_action">
             <field name="name">Travels</field>
             <field name="res_model">space_mission_odoo.travel</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,calendar</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
                     Begin a new space travel
