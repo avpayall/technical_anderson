@@ -26,6 +26,8 @@
         'views/spaceship_views.xml',
         'views/travel_views.xml',
         'views/sale_views_inherit.xml',
+        'views/resource_views_inherit.xml',
+        'wizard/sale_wizard_view.xml',
     ],
     
     'demo': [

@@ -20,7 +20,9 @@ class Travel(models.Model):
     
     duration = fields.Integer(string='Travel Days', default=7)
     
-    end_date = fields.Date(string='End Date', compute='_compute_end_date', inverse='_inverse_end_date', stored=True)
+    end_date = fields.Date(string='End Date', compute='_compute_end_date', inverse='_inverse_end_date')
+    
+    total_cost = fields.Float(string='Total Cost', related='spaceship_id.total_cost')
     
     @api.depends('start_date', 'duration')
     def _compute_end_date(self):
